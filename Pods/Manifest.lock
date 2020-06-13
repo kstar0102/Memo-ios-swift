@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - CCBottomRefreshControl (0.5.2)
+  - PullToRefreshKit (0.8.8)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 3.5)
+  - CCBottomRefreshControl
+  - PullToRefreshKit
+  - SDWebImage
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - CCBottomRefreshControl
+    - PullToRefreshKit
+    - SDWebImage
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  CCBottomRefreshControl: 389780b4488321c91d18f66a6da5ef9606df6de5
+  PullToRefreshKit: 7cc53e720e69f135cffa1a57784dfb534f0222ab
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: c7842aa30a281e1ca2d3d9b376e2339018de22c1
+
+COCOAPODS: 1.9.1

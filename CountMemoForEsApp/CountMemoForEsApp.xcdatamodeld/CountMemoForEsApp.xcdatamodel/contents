@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Memo" representedClassName="Memo" syncable="YES" codeGenerationType="class">
+        <attribute name="alertDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="company" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="memoDate" optional="YES" attributeType="String"/>
+        <attribute name="memoNum" optional="YES" attributeType="String"/>
+        <attribute name="memoText" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Todo" representedClassName="Todo" syncable="YES" codeGenerationType="class">
+        <attribute name="alertFlag" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="alertTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="bgColor" optional="YES" attributeType="String"/>
+        <attribute name="completedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="completedFlag" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserProfile" representedClassName="UserProfile" syncable="YES" codeGenerationType="class">
+        <attribute name="education" optional="YES" attributeType="String"/>
+        <attribute name="graduateYear" optional="YES" attributeType="String"/>
+        <attribute name="hobby" optional="YES" attributeType="String"/>
+        <attribute name="qualification" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Memo" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="Todo" positionX="-63" positionY="36" width="128" height="163"/>
+        <element name="UserProfile" positionX="-63" positionY="72" width="128" height="118"/>
+    </elements>
+</model>
